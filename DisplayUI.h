@@ -49,8 +49,8 @@ extern String leftRight(String a, String b, int len);
 extern String replaceUtf8(String str, String r);
 
 const char D_INTRO_0[] PROGMEM = "ESP8266  Chipset";
-const char D_INTRO_1[] PROGMEM = "by Jonah Schmidt";
-const char D_INTRO_2[] PROGMEM = DISPLAY_TEXT;
+const char D_INTRO_1[] PROGMEM = DISPLAY_TEXT;
+const char D_INTRO_2[] PROGMEM = "by Jonah Schmidt";
 const char D_RESETTING[] PROGMEM = "Resetting...";
 const char D_SCANNING_0[] PROGMEM = "> Starting";
 const char D_SCANNING_1[] PROGMEM = "> Starting.";

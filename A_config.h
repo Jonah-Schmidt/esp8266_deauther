@@ -57,7 +57,6 @@
 
 // ========== CONFIGS ========== //
 
-// https://github.com/spacehuhntech/hackheld
 #if defined(HACKHELD_VEGA)
 // ===== LED ===== //
   #define USE_LED true
@@ -87,7 +86,6 @@
   #define BUTTON_A 2     // D4
   #define BUTTON_B 0     // D3
 
-// https://github.com/SpacehuhnTech/esp8266_deauther/wiki/Setup-Display-&-Buttons#example-setup-with-i2c-oled
 #elif defined(DISPLAY_EXAMPLE_I2C)
 
 // ===== DISPLAY ===== //
@@ -114,7 +112,6 @@
   #define LED_MODE_BRIGHTNESS 10
 
 
-// https://github.com/SpacehuhnTech/esp8266_deauther/wiki/Setup-Display-&-Buttons#example-setup-with-spi-oled
 #elif defined(DISPLAY_EXAMPLE_SPI)
 
   #define SH1106_SPI

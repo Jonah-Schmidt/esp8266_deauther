@@ -1,12 +1,4 @@
-/* =====================
-   This software is licensed under the MIT License:
-   https://github.com/spacehuhntech/esp8266_deauther
-   ===================== */
-
 extern "C" {
-    // Please follow this tutorial:
-    // https://github.com/spacehuhn/esp8266_deauther/wiki/Installation#compiling-using-arduino-ide
-    // And be sure to have the right board selected
   #include "user_interface.h"
 }
 
@@ -14,9 +6,6 @@ extern "C" {
 
 #include "src/ArduinoJson-v5.13.5/ArduinoJson.h"
 #if ARDUINOJSON_VERSION_MAJOR != 5
-// The software was build using ArduinoJson v5.x
-// version 6 is still in beta at the time of writing
-// go to tools -> manage libraries, search for ArduinoJSON and install version 5
 #error Please upgrade/downgrade ArduinoJSON library to version 5!
 #endif // if ARDUINOJSON_VERSION_MAJOR != 5
 
