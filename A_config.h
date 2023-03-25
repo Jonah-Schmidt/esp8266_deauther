@@ -1,5 +1,3 @@
-/* This software is licensed under the MIT License: https://github.com/spacehuhntech/esp8266_deauther */
-
 #pragma once
 
 #define ENABLE_DEBUG
@@ -8,52 +6,7 @@
 
 #define DEFAULT_ESP8266
 
-// #define NODEMCU
-// #define WEMOS_D1_MINI
-// #define HACKHELD_VEGA
-// #define DISPLAY_EXAMPLE_I2C
-// #define DISPLAY_EXAMPLE_SPI
-
-// #define MALTRONICS
-// #define DSTIKE_DEAUTHER_V1
-// #define DSTIKE_DEAUTHER_V2
-// #define DSTIKE_DEAUTHER_V3
-// #define DSTIKE_DEAUTHER_V3_5
-// #define DSTIKE_D_DUINO_B_V5_LED_RING
-// #define DSTIKE_DEAUTHER_BOY
-// #define DSTIKE_NODEMCU_07
-// #define DSTIKE_NODEMCU_07_V2
-// #define DSTIKE_DEAUTHER_OLED
-// #define DSTIKE_DEAUTHER_OLED_V1_5_S
-// #define DSTIKE_DEAUTHER_OLED_V1_5
-// #define DSTIKE_DEAUTHER_OLED_V2
-// #define DSTIKE_DEAUTHER_OLED_V2_5
 #define DSTIKE_DEAUTHER_OLED_V3
-// #define DSTIKE_DEAUTHER_OLED_V3_5
-// #define DSTIKE_DEAUTHER_OLED_V4
-// #define DSTIKE_DEAUTHER_OLED_V5
-// #define DSTIKE_DEAUTHER_OLED_V6
-// #define DSTIKE_DEAUTHER_MOSTER
-// #define DSTIKE_DEAUTHER_MOSTER_V2
-// #define DSTIKE_DEAUTHER_MOSTER_V3
-// #define DSTIKE_DEAUTHER_MOSTER_V4
-// #define DSTIKE_DEAUTHER_MOSTER_V5
-// #define DSTIKE_USB_DEAUTHER
-// #define DSTIKE_USB_DEAUTHER_V2
-// #define DSTIKE_DEAUTHER_WATCH
-// #define DSTIKE_DEAUTHER_WATCH_V2
-// #define DSTIKE_DEAUTHER_MINI
-// #define DSTIKE_DEAUTHER_MINI_EVO
-
-// #define LYASI_7W_E27_LAMP
-// #define AVATAR_5W_E14_LAMP
-
-// Forces formatting of SPIFFS and EEPROM ot startup
-// #define FORMAT_SPIFFS
-// #define FORMAT_EEPROM
-
-// Forces a reset of all settings at startup
-// #define RESET_SETTINGS
 
 // ========== CONFIGS ========== //
 

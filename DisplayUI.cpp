@@ -84,7 +84,6 @@ void DisplayUI::setup() {
         addMenuNode(&mainMenu, D_SCAN, &scanMenu);          /// SCAN
         addMenuNode(&mainMenu, D_SHOW, &showMenu);          // SHOW
         addMenuNode(&mainMenu, D_ATTACK, &attackMenu);      // ATTACK
-        addMenuNode(&mainMenu, D_TABLE, &clockMenu); // Custom
         addMenuNode(&mainMenu, D_PACKET_MONITOR, [this]() { // PACKET MONITOR
             scan.start(SCAN_MODE_SNIFFER, 0, SCAN_MODE_OFF, 0, false, wifi_channel);
             mode = DISPLAY_MODE::PACKETMONITOR;
